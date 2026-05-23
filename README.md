@@ -2,7 +2,7 @@
 
 > Real sold prices for trading cards, directly inside your AI.
 
-Connect Claude, Cursor, Windsurf, ChatGPT, or any MCP-compatible client to **millions of true sold prices** across eBay, Goldin, Heritage, Fanatics, and more — including **Best Offer prices** (the actual negotiated amount, which most data providers never show).
+Connect Claude, Cursor, Windsurf, ChatGPT, or any MCP-compatible client to **hundreds of thousands of true sold prices added daily** across eBay, Goldin, Heritage, Fanatics, and more — including **Best Offer prices** (the actual negotiated amount, which most data providers never show).
 
 One URL. No setup beyond your API key. **Data updated daily.**
 
@@ -82,7 +82,7 @@ client = MultiServerMCPClient({
 
 | Tool | What it does |
 |---|---|
-| `search_cards` | Search millions of real sold prices. Filter by card name, platform, grader, grade, listing type, date range, and price. Returns true Best Offer prices — the actual negotiated amount, not the list price. |
+| `search_cards` | Search hundreds of thousands of real sold prices added daily. Filter by card name, platform, grader, grade, listing type, date range, and price. Returns true Best Offer prices — the actual negotiated amount, not the list price. |
 | `grade_impact_analysis` | Full PSA/BGS/SGC/CGC price ladder for any card — avg, median, and sale count per grade. Identifies the best-value grade: where the jump to the next grade up is steepest. |
 | `grader_comparison` | PSA vs BGS vs SGC vs CGC for the same card and grade. Shows which grader commands the highest premium and by how much. |
 | `grading_value_calculator` | Should you grade this card? Real cost math — all PSA/BGS/SGC/CGC tiers including bulk rates and shipping — vs actual market comps. Shows expected profit or loss at each grade. |
