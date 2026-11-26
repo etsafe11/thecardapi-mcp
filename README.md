@@ -2,7 +2,7 @@
 
 Connect an MCP client to The Card API with the API key you already use.
 
-**Endpoint:** `https://www.thecardapi.com/api/mcp`
+**Endpoint:** `https://mcp.thecardapi.com/api/mcp`
 
 The server name is `thecardapi-mcp`, version 2.0.0. It exposes two tools.
 
@@ -31,7 +31,7 @@ Add this block to `~/Library/Application Support/Claude/claude_desktop_config.js
       "command": "npx",
       "args": [
         "mcp-remote",
-        "https://www.thecardapi.com/api/mcp",
+        "https://mcp.thecardapi.com/api/mcp",
         "--header",
         "Authorization: Bearer YOUR_API_KEY"
       ]
@@ -44,7 +44,7 @@ Add this block to `~/Library/Application Support/Claude/claude_desktop_config.js
 
 ```bash
 claude mcp add --transport http thecardapi \
-  https://www.thecardapi.com/api/mcp \
+  https://mcp.thecardapi.com/api/mcp \
   --header "Authorization: Bearer YOUR_API_KEY"
 ```
 
@@ -56,7 +56,7 @@ Add this block to `~/.cursor/mcp.json`.
 {
   "mcpServers": {
     "thecardapi": {
-      "url": "https://www.thecardapi.com/api/mcp",
+      "url": "https://mcp.thecardapi.com/api/mcp",
       "headers": {
         "Authorization": "Bearer YOUR_API_KEY"
       }
@@ -73,7 +73,7 @@ Add this block to `~/.codeium/windsurf/mcp_settings.json`.
 {
   "mcpServers": {
     "thecardapi": {
-      "serverUrl": "https://www.thecardapi.com/api/mcp",
+      "serverUrl": "https://mcp.thecardapi.com/api/mcp",
       "headers": {
         "Authorization": "Bearer YOUR_API_KEY"
       }
